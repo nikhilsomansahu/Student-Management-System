@@ -7,5 +7,8 @@ public interface StudentService {
 	
 	List<Student> getall();
 	
+	Student saveStudent(Student student);
+	
+	
 
 }
